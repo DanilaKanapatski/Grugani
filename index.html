@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grugani</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header-desc">
             <img class="header-logo" src="images/header-logo.svg" alt="">
             <div class="header-wrapper">
                 <nav>
@@ -27,6 +28,32 @@
                 <button class="header-btn">ЗАПИСАТЬСЯ</button>
             </div>
         </header>
+        <header class="header-mob">
+            <div class="header__container">
+                <a class="header__logo" href="index.html">
+                    <img src="./images/header-logo.svg" alt="header-logo">
+                </a>
+                <p class="header-num">+375 29 118 76 76</p>
+                <button class="header-btn">ЗАПИСАТЬСЯ</button>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a class="menu__link" href="../index.html">О школе</a></li>
+                            <li><a class="menu__link" href="/DNK/pages/academy.html">Набор</a></li>
+                            <li>
+                                <a class="menu__link" href="https://box365.by/ ">Тренеры</a>
+                            </li>
+                            <li><a class="menu__link" href="https://premierliga.pro/ ">Новости</a></li>
+                            <li> <a class="menu__link" href="/DNK/pages/news.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <script src="js/header.js"></script>
         <section class="info">
             <div class="info-wrapper">
                 <div class="info-content">
@@ -137,7 +164,7 @@
             </div>
 
         </section>
-        <section class="photo">
+        <section class="photo-desc">
             <div class="photo-blocks">
                 <div class="photo-block1">
                     <img src="images/turniers-1.png" alt="">
@@ -152,6 +179,17 @@
                     <img src="images/turniers-6.png" alt="">
                     <img src="images/turniers-7.png" alt="">
                 </div>
+            </div>
+        </section>
+        <section class="photo-mob">
+            <div class="photo-blocks">
+                <img src="images/turniers-11.png" alt="">
+                <img src="images/turniers-33.png" alt="">
+                <img src="images/turniers-77.png" alt="">
+                <img src="images/turniers-55.png" alt="">
+                <img src="images/turniers-44.png" alt="">
+                <img src="images/turniers-66.png" alt="">
+                <img src="images/turniers-22.png" alt="">
             </div>
         </section>
         <section class="principles">
@@ -273,6 +311,8 @@
                         <p>Занятия <span>в филиалах-школах</span> города</p>
                     </div>
                     <p class="program-name__price">120 BYN/месяц</p>
+                    <p class="program-present prm">1-Я ТРЕНИРОВКА В ПОДАРОК</p>
+                    <button class="program-btn prm">ЗАПИСАТЬСЯ</button>
                 </li>
                 <li>
                     <h2 class="program-name__title">Программа PRO</h2>
@@ -292,7 +332,7 @@
             </ul>
             <p class="program-present">1-Я ТРЕНИРОВКА В ПОДАРОК</p>
             <button class="program-btn">ЗАПИСАТЬСЯ</button>
-            <div class="football-wrapper">
+            <div class="football-wrapper__desc">
                 <div class="program-football">
                     <div class="program-football1">
                         <img src="images/football-1.jpg" alt="">
@@ -306,6 +346,16 @@
                         <img src="images/football-2.jpg" alt="">
                         <img src="images/football-5.jpg" alt="">
                     </div>
+                </div>
+            </div>
+            <div class="football-wrapper__mob">
+                <div class="program-football">
+                    <img src="images/football-11.jpg" alt="">
+                    <img src="images/football-22.jpg" alt="">
+                    <img src="images/football-33.jpg" alt="">
+                    <img src="images/football-44.jpg" alt="">
+                    <img src="images/football-55.jpg" alt="">
+                    <img src="images/football-66.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -363,7 +413,8 @@
                 </div>
             </div>
             <ul class="treners-list">
-                <li><img src="images/treners-2.png" alt="">
+                <li>
+                    <img src="images/treners-2.png" alt="">
                     <h3 class="treners-list__title">
                         Бушма Владимир Фомич
                     </h3>
@@ -457,7 +508,133 @@
             <p class="treners-present">1-Я ТРЕНИРОВКА В ПОДАРОК</p>
             <button class="treners-btn">ЗАПИСАТЬСЯ</button>
         </section>
-        <section class="news">
+        <section class="treners-swiper">
+            <h2 class="treners-title title">ТРЕНЕРСКИЙ СОСТАВ</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/treners-1.png" alt="">
+                        <h3 class="treners-list__title">Кубарев Олег Михайлович</h3>
+                        <p class="treners-list__desc">Технический директор, тренерская лицензия PRO UEFA</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">Обладатель Кубка и бронзовый призёр чемпионата РБ 2011;
+                            обладатель
+                            Суперкубка Беларуси 2012; обладатель Кубка Молдовы 2013-2014 и суперкубка 2014 ; тренером
+                            года -
+                            2014, завоевав с ФК «Зимбру» кубок, Суперкубок и бронзовые медали чемпионата Молдовы;
+                            чемпион
+                            Латвии 2016; тренер года - 2016, став чемпионом Латвии с ФК «Спартак» Юрмала; неоднократный
+                            участник Лиги Европы.</p>
+                    </div>
+                    <div class="swiper-slide"><img src="images/treners-2.png" alt="">
+                        <h3 class="treners-list__title">
+                            Бушма Владимир Фомич
+                        </h3>
+                        <p class="treners-list__desc">Тренер вратарей.</p>
+                        <p class="treners-list__desc">Тренерская лицензия В UEFA</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">Видео-аналитик ФК «ТОРПЕДО-БЕЛАЗ» ; тренер – первая команда ФК
+                            «Елгава» (Латвия) ; тренер по физподготовке ФК «Крумкачы»</p>
+                        <h3 class="treners-list__title">Тренерские достижения</h3>
+                        <p class="treners-list__desc">Видео-аналитик главной команды и U21 сборной Германии (2016-2018)
+                            ;
+                            финалист кубка Латвии (2019) ; бронзовый призёр Первой лиги чемпионата Беларуси (2021)</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Бронзовый призёр дублирующих составов ФК «Гомель» (2011) ; чемпион
+                            дублирующих составов ФК «Гомель» (2012).</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/treners-4.png" alt="">
+                        <h3 class="treners-list__title">
+                            Казарин Андрей Николаевич
+                        </h3>
+                        <p class="treners-list__desc">Тренер команды 2016-2017.</p>
+                        <p class="treners-list__desc">Тренерская лицензия B UEFA</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">Академия Интер Минск U15;</p>
+                        <p class="treners-list__desc">ФК «Стенлес»</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Финалист Кубка Беларуси 2009-2010;</p>
+                        <p class="treners-list__desc">победитель первой лиги Беларуси 2012;</p>
+                        <p class="treners-list__desc">победитель второй лиги Беларуси 2016</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/treners-3.png" alt="">
+                        <h3 class="treners-list__title">
+                            Павлючек Кирилл Владимирович
+                        </h3>
+                        <p class="treners-list__desc"> Тренер команды 2012-2013, член национальной сборной 2005-2006 и
+                            2008
+                            гг. Действующий тренер ФК Минск. Тренерская лицензия B UEFA</p>
+                        <p class="treners-list__desc">Тренерская лицензия В UEFA</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Чемпион Беларуси 2004 ; серебряный призёр чемпионата Беларуси
+                            2005,
+                            2006 ; бронзовый призёр чемпионата Беларуси 2003 ; обладатель Кубка Беларуси 2002-2003;
+                            победитель Первой лиги Беларуси 2010, 2012 ; обладатель Кубка Молдовы 2013-2014 ; обладатель
+                            Суперкубка Молдовы 2014.</p>
+                    </div>
+                    <div class="swiper-slide"><img src="images/treners-5.png" alt="">
+                        <h3 class="treners-list__title">
+                            Кубарев Сергей Олегович
+                        </h3>
+                        <p class="treners-list__desc"> Инструктор, тренер по физической подготовке и видео-аналитик.</p>
+                        <p class="treners-list__desc">Тренерская лицензия А и В UEFA</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">Видео-аналитик ФК «ТОРПЕДО-БЕЛАЗ»; тренер – ФК «Елгава» (Латвия) ;
+                            тренер по физической подготовке ФК «Крумкачы»</p>
+                        <h3 class="treners-list__title">Тренерские достижения</h3>
+                        <p class="treners-list__desc">Видео-аналитик главной команды и U21 сборной Германии (2016-2018)
+                            ;
+                            финалист кубка Латвии (2019) ; бронзовый призёр Первой лиги чемпионата Беларуси (2021)</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Бронзовый призёр дублирующих составов ФК «Гомель» (2011); чемпион
+                            дублирующих составов ФК «Гомель» (2012).</p>
+                    </div>
+                    <div class="swiper-slide"><img src="images/treners-7.png" alt="">
+                        <h3 class="treners-list__title">
+                            Ходневич Алексей Дмитриевич
+                        </h3>
+                        <p class="treners-list__desc"> Тренер команды 2005, 2012-2013,</p>
+                        <p class="treners-list__desc">Тренерская лицензия В UEFA</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">Академия Интер U13; стажировка</p>
+                        <p class="treners-list__desc">в Академии Интер (Милан)</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Лучший бомбардир Чемпионата Беларуси 2008 (Вторая Лига); бронзовый
+                            призёр Чемпионата Беларуси (Вторая Лига) ; чемпион Беларуси (Вторая Лига) ; чемпион Беларуси
+                            (Первая Лига) ; бронзовый призёр Беларуси (Первая Лига) ; в 2021 году забил рекордные 59
+                            голов
+                            за «Островец» во Второй лиге Беларуси.</p>
+                    </div>
+                    <div class="swiper-slide"><img src="images/treners-6.png" alt="">
+                        <h3 class="treners-list__title">
+                            Зубко Мирослава Игоревна
+                        </h3>
+                        <p class="treners-list__desc"> Тренер команды, действующий игрок ФК Минск, МФК “Столица”,
+                            Национальной сборной по мини-футболу</p>
+                        <h3 class="treners-list__title">Тренерская карьера</h3>
+                        <p class="treners-list__desc">тренер в ФШ Юниор; спортсмен-инструктор в ФК “Зорка-БДУ”; тренер в
+                            ФК
+                            “Стандарт”; спортсмен-инструктор в ФК “Минск”. тренер и менеджер в “ДНК Нации”.</p>
+                        <h3 class="treners-list__title">Достижения игрока</h3>
+                        <p class="treners-list__desc">Бронзовый призёр чемпионата Беларуси по мини-футболу 2017/2018 и
+                            2018/2019; обладатель Суперкубка Беларуси 2018; Бронзовый призёр чемпионата Беларуси по
+                            футболу
+                            2021, Серебряный призёр Беларуси по футболу 2022; чемпион Беларуси по мини-футболу 2022/2023
+                        </p>
+                        </li>
+                    </div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            <script src="js/swiper.js"></script>
+            <p class="treners-present">1-Я ТРЕНИРОВКА В ПОДАРОК</p>
+            <button class="treners-btn">ЗАПИСАТЬСЯ</button>
+        </section>
+        <section class="news-desc">
             <div class="news-wrapper">
                 <h2 class="news-title title">
                     НОВОСТИ И РЕЗУЛЬТАТЫ
@@ -498,6 +675,55 @@
                 </div>
             </div>
         </section>
+        <section class="news-mob">
+            <h2 class="news-title title">
+                НОВОСТИ И РЕЗУЛЬТАТЫ
+            </h2>
+            <div class="news-content">
+                <div>
+                    <div class="news-wrapper"><img src="images/news-1.png" alt=""></div>
+                    <div class="news-text">
+                        <h3 class="news-content__title">Стартовала реконструкция стадиона на Серова, 18</h3>
+                        <p class="news-content__desc">Как ДНК человека, которая способна брать лучшее от многих
+                            поколений,
+                            чтобы ее обладатель мог
+                            самосовершенствоваться и развиваться,
+                            Так мы хотим вобрать весь мировой опыт и культивировать белорусскую школу спортивной
+                            культуры
+                            как той базы, что сопровождает человека на протяжении всей жизни.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="news-wrapper"><img src="images/news-1.png" alt=""></div>
+                    <div class="news-text">
+                        <h3 class="news-content__title">Стартовала реконструкция стадиона на Серова, 18</h3>
+                        <p class="news-content__desc">Как ДНК человека, которая способна брать лучшее от многих
+                            поколений,
+                            чтобы ее обладатель мог
+                            самосовершенствоваться и развиваться,
+                            Так мы хотим вобрать весь мировой опыт и культивировать белорусскую школу спортивной
+                            культуры
+                            как той базы, что сопровождает человека на протяжении всей жизни.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="news-wrapper"><img src="images/news-1.png" alt=""></div>
+                    <div class="news-text">
+                        <h3 class="news-content__title">Стартовала реконструкция стадиона на Серова, 18</h3>
+                        <p class="news-content__desc">Как ДНК человека, которая способна брать лучшее от многих
+                            поколений,
+                            чтобы ее обладатель мог
+                            самосовершенствоваться и развиваться,
+                            Так мы хотим вобрать весь мировой опыт и культивировать белорусскую школу спортивной
+                            культуры
+                            как той базы, что сопровождает человека на протяжении всей жизни.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="games">
             <div class="games-wrapper">
                 <div>
@@ -531,7 +757,7 @@
                 </div>
                 <div>
                     <h2 class="games-title">АНОНСЫ</h2>
-                    <ul class="games-list">
+                    <ul class="games-list cntr">
                         <li>
                             <h3 class="games-list__title">АФЛ (2014 г.р.)</h3>
                             <p class="games-list__desc">ДНК - Динамо Минск (Серова, 18)</p>
@@ -586,11 +812,11 @@
                     width="600" height="550" frameborder="0"></iframe>
             </div>
         </section>
+    </div>
+    <footer class="footer">
+        <a href=""><img src="images/footer.png" alt=""></a>
+    </footer>
 
-        <footer class="footer">
-            <a href=""><img src="images/footer.png" alt=""></a>
-        </footer>
-        </dib>
 </body>
 
 </html>
