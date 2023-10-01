@@ -391,6 +391,21 @@ body {
     left: 8%;
 }
 
+.header-tl {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-links img {
+    width: 24px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
 .header-list {
     display: flex;
     gap: 57px;
@@ -401,6 +416,10 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
+}
+
+.header-list li a:hover {
+    text-decoration: underline;
 }
 
 .header-num {
@@ -430,6 +449,7 @@ body {
 
 .info-wrapper {
     display: flex;
+    padding-right: 41px;
     justify-content: center;
     gap: 26px;
     align-items: flex-start;
@@ -468,6 +488,8 @@ body {
 .info-news {
     margin-top: 23px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 38px;
 }
 
@@ -561,11 +583,11 @@ body {
 }
 
 .about-list {
-    padding: 147px 145px 124px 148px;
+    padding: 147px 100px 124px 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px 42px;
+    gap: 50px 11%;
 }
 
 .about-list li {
@@ -731,6 +753,7 @@ body {
 }
 
 .principles-wrapper {
+    align-items: flex-start;
     display: flex;
     gap: 66px;
     justify-content: center;
@@ -761,16 +784,17 @@ body {
 }
 
 .principles-list__item-num {
+    width: 15.5px;
     color: #161414;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 124.523%;
 }
 
 .principles-list__item-title {
     color: #161414;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
 }
 
@@ -814,6 +838,7 @@ body {
 
 .program-content {
     margin-top: 66px;
+    align-items: flex-start;
     padding: 0 110px 0 102px;
     justify-content: center;
     display: flex;
@@ -875,6 +900,10 @@ body {
     gap: 65px 190px;
 }
 
+.program-list img {
+    width: 100px;
+}
+
 .program-list li {
     max-width: 465px;
     min-width: 420px;
@@ -912,6 +941,19 @@ body {
     gap: 105px;
     padding: 0 185px 0 227px;
 }
+
+.program-name__text p {
+    padding-left: 20px;
+    position: relative;
+}
+
+.program-name__text p::before {
+    content: url('images/Ellipse\ 1.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 .program-name__title {
     color: #161414;
@@ -1284,7 +1326,7 @@ body {
 .games-title {
     color: #161414;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .games-list {
@@ -1318,9 +1360,9 @@ body {
 }
 
 .contacts-title {
-    background-image: url('images/rectangle-543.svg');
+    background-image: url('images/rectangle-549.svg');
     width: 560px;
-    padding: 23px 0 23px 85px;
+    padding: 7px 0 7px 85px;
 }
 
 .contacts-wrapper {
@@ -2079,5 +2121,12 @@ body {
 @media screen and (min-width: 1450px) {
     .header-logo {
         left: 12%;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .quiestions-block1 {
+        gap: 110px;
+        justify-content:initial
     }
 }
