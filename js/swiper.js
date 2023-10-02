@@ -1,4 +1,4 @@
-new Swiper('.swiper-1', {
+new Swiper('.trener-swiper', {
     speed: 700,
     spaceBetween: 30,
     // navigation: {
@@ -9,7 +9,7 @@ new Swiper('.swiper-1', {
     keyboard: {
         enabled: true
     }, 
-    // autoHeight: true,
+    autoHeight: true,
     loop: true,
     // autoplay: {
     //     delay: 3000,
@@ -19,7 +19,7 @@ new Swiper('.swiper-1', {
     // slidesPerGroup: 1,
 });
 
-new Swiper('.swiper-2', {
+new Swiper('.i-swiper', {
     speed: 700,
     // spaceBetween: 30,
     // navigation: {
@@ -36,6 +36,6 @@ new Swiper('.swiper-2', {
     //     delay: 3000,
     //     disableOnInteraction: false,
     // },
-    // slidesPerView: 'auto',
-    // slidesPerGroup: 1,
+    slidesPerView: '1.2',
+    // slidesPerGroup: 1.5,
 });

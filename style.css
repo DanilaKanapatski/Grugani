@@ -2093,12 +2093,12 @@ body {
         padding: 12px 0 12px 35px;
     }
 
-    .swiper-1 {
+    .trener-swiper {
         margin-top: 40px;
         padding: 0 10px;
     }
 
-    .swiper-1 .swiper-slide :nth-child(2) {
+    .trener-swiper .swiper-slide :nth-child(2) {
         margin-top: 23px;
     }
 
