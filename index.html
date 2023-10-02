@@ -40,21 +40,28 @@
                 <a class="header__logo" href="index.html">
                     <img src="./images/header-logo.svg" alt="header-logo">
                 </a>
-                <p class="header-num">+375 29 118 76 76</p>
-                <a href="" class="header-btn">ЗАПИСАТЬСЯ</a>
+                <div class="header-contacts">
+                    <a href="tel:+375 29 118 76 76" class="header-num">+375 29 118 76 76</a>
+                    <a href="viber://chat?number=%2B375291187676" class="header-btn">ЗАПИСАТЬСЯ</a>
+                </div>
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
                     </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li><a class="menu__link" href="../index.html">О школе</a></li>
-                            <li><a class="menu__link" href="/DNK/pages/academy.html">Набор</a></li>
+                            <li><a class="menu__link" href="#about">О школе</a></li>
+                            <li><a class="menu__link" href="#program">Набор</a></li>
                             <li>
-                                <a class="menu__link" href="https://box365.by/ ">Тренеры</a>
+                                <a class="menu__link" href="#treners-1">Тренеры</a>
                             </li>
-                            <li><a class="menu__link" href="https://premierliga.pro/ ">Новости</a></li>
-                            <li> <a class="menu__link" href="/DNK/pages/news.html">Контакты</a></li>
+                            <li><a class="menu__link" href="#news">Новости</a></li>
+                            <li> <a class="menu__link" href="#contacts">Контакты</a></li>
+                            <div class="header-links-mob">
+                                <a href="https://www.instagram.com/grugany.by/"><img src="images/instagram.svg"
+                                        alt=""></a>
+                                <a href="https://www.tiktok.com/@grugany.by"><img src="images/tiktok.svg" alt=""></a>
+                            </div>
                         </ul>
                     </nav>
                 </div>
@@ -67,7 +74,7 @@
                     <h1 class="info-title">ПРОХОДИТ НАБОР <br>
                         В ФУТБОЛЬНУЮ ШКОЛУ “ГРУГАНЫ”</h1>
                     <p class="info-desc">Приглашаем мальчиков и девочек 5-12 лет</p>
-                    <a class="info-link" href="">Подробнее</a>
+                    <a class="info-link" href="#program">Подробнее</a>
                 </div>
                 <div class="info-news">
                     <div class="info-1">
@@ -102,6 +109,34 @@
                     </div>
                 </div>
             </div>
+          <div class="info-swiper">
+                <div class="swiper-2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h2 class="info-news__title">
+                                ПОСЛЕДНИЕ МАТЧИ
+                            </h2>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <h2 class="info-news__title">
+                                АНОНС
+                            </h2>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                            <h3 class="info-news__subtitle">АФЛ (2014 г.р.)</h3>
+                            <p class='info-news__d'>ДНК - Динамо Минск 6:0</p>
+                        </div>
+                    </div>
+          </div>
+
         </section>
         <section class="about" id="about">
             <div class="about-wrapper">
@@ -110,38 +145,51 @@
 
                     <li>
                         <img src="images/about-1.svg" alt="">
-                        <h3 class="about-list__title">Профессиональные тренеры</h3>
-                        <p class="about-list__desc">Специалисты с лицензиями UEFA,
-                            международным опытом, игровой карьерой</p>
+                        <div class="about-text">
+                            <h3 class="about-list__title">Профессиональные тренеры</h3>
+                            <p class="about-list__desc">Специалисты с лицензиями UEFA,
+                                международным опытом, игровой карьерой</p>
+                        </div>
                     </li>
                     <li>
                         <img src="images/about-2.svg" alt="">
-                        <h3 class="about-list__title">Безопасные тренировки</h3>
-                        <p class="about-list__desc">Уделяем внимание
-                            возрастным особенностям наших воспитанников-футболистов</p>
+                        <div>
+                            <h3 class="about-list__title">Безопасные тренировки</h3>
+                            <p class="about-list__desc">Уделяем внимание
+                                возрастным особенностям наших воспитанников-футболистов</p>
+                        </div>
                     </li>
                     <li><img src="images/about-3.svg" alt="">
-                        <h3 class="about-list__title">Качественная инфраструктура</h3>
-                        <p class="about-list__desc">Собственное поле
-                            и профессиональный инвентарь мирового уровня</p>
+                        <div>
+                            <h3 class="about-list__title">Качественная инфраструктура</h3>
+                            <p class="about-list__desc">Собственное поле
+                                и профессиональный инвентарь мирового уровня</p>
+                        </div>
                     </li>
                     <li><img src="images/about-4.svg.svg" alt="">
-                        <h3 class="about-list__title">Регулярные турниры</h3>
-                        <p class="about-list__desc">Мы участвуем в городских, республиканских и проводим собственные
-                            турниры
-                        </p>
+                        <div>
+                            <h3 class="about-list__title">Регулярные турниры</h3>
+                            <p class="about-list__desc">Мы участвуем в городских, республиканских и проводим собственные
+                                турниры
+                            </p>
+                        </div>
                     </li>
                     <li><img src="images/about-5.svg" alt="">
-                        <h3 class="about-list__title">Ценим каждого</h3>
-                        <p class="about-list__desc">Игровая практика находится для всеех - наши воспитанники не скучают
-                            на
-                            скамье запасных</p>
+                        <div>
+                            <h3 class="about-list__title">Ценим каждого</h3>
+                            <p class="about-list__desc">Игровая практика находится для всеех - наши воспитанники не
+                                скучают
+                                на
+                                скамье запасных</p>
+                        </div>
                     </li>
                     <li><img src="images/about-6.svg" alt="">
-                        <h3 class="about-list__title">Удовольствие от процесса</h3>
-                        <p class="about-list__desc">Тренировки и игру в футбол
-                            превращаем в получение
-                            спортивного удовольствия</p>
+                        <div>
+                            <h3 class="about-list__title">Удовольствие от процесса</h3>
+                            <p class="about-list__desc">Тренировки и игру в футбол
+                                превращаем в получение
+                                спортивного удовольствия</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -156,7 +204,8 @@
         <section class="trener">
             <div class="trener-wrapper">
                 <div class="trener-imgs">
-                    <img class="trener-img" src="images/trener-1.png" alt="">
+                    <img class="trener-img trdesc" src="images/trener-1.png" alt="">
+                    <img class="trmob trener-img" src="images/trener-2.png" alt="" srcset="">
                 </div>
                 <div class="trener-content">
                     <p class="trener-content__main">Футбол формирует характер, учит самоконтролю, закаляет, помогает в
@@ -264,7 +313,8 @@
                     </ul>
                 </div>
                 <div class="principles-imgs">
-                    <img class="principles-img" src="images/principles-1.png" alt="">
+                    <img class="principles-img prdesc" src="images/principles-1.png" alt="">
+                    <img class="principles-img prmob" src="images/principles-11.png" alt="">
                 </div>
             </div>
 
@@ -302,7 +352,11 @@
                     <p class="program-list__text">Турниры и праздники</p>
                 </li>
             </ul>
-            <div class="program-v"><img class="program-vv" src="images/program-6.png" alt=""></div>
+            <div class="ww">
+                <div class="program-v"><img class="program-vv prgdesc" src="images/program-6.png" alt="">
+                    <img class="program-vv prgmob" src="images/program-66.png" alt="">
+                </div>
+            </div>
             <ul class="program-name">
                 <li>
                     <h2 class="program-name__title">Программа “ШКОЛА”</h2>
@@ -386,7 +440,7 @@
                 </div>
                 <div class="quiestions-block2">
                     <div>
-                        <h3 class="quiestions-subtitle">Проходят ли тренировки в непогоду </h3>
+                        <h3 class="quiestions-subtitle">Проходят ли тренировки в непогоду?</h3>
                         <p class="quiestions-desc">При непригодных погодных условиях, занятия переносятся и
                             отрабатываются позже.<br>Зимой поле расчищено и снег не мешает. Заболеть нельзя, если
                             одеваться по погоде, поэтому мы предлагаем каталог экипировки, где присутствуют вещи для
@@ -517,9 +571,9 @@
             <p class="treners-present">1-Я ТРЕНИРОВКА В ПОДАРОК</p>
             <a href="viber://chat?number=%2B375291187676" class="treners-btn">ЗАПИСАТЬСЯ</a>
         </section>
-        <section class="treners-swiper">
+        <section class="treners-swiper" id="treners-1">
             <h2 class="treners-title title">Тренерский состав</h2>
-            <div class="swiper">
+            <div class="swiper-1">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="images/treners-1.png" alt="">
