@@ -1382,7 +1382,7 @@ body {
         }
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: 900px) {
 
         .menu__icon {
             z-index: 5;
@@ -1505,6 +1505,14 @@ body {
         display: block;
         margin-top: 77px;
         padding-left: 30px;
+    }
+
+    .info-swiper .swiper-scrollbar {
+        position: relative;
+        background-color: #F5C643;
+        margin: 30px auto;
+        width: 50%;
+        z-index: 2;
     }
 
     .info {
@@ -1701,12 +1709,12 @@ body {
         background-image: url('images/rectangle-551.svg');
         background-repeat: no-repeat;
         background-size: contain;
-        width: 100%;
+      
     }
 
     .trener-img {
         padding: 49px 19px 60px 30px;
-        width: 100%;
+
     }
 
     .trener-content__title {
@@ -1814,7 +1822,7 @@ body {
 
     .principles-imgs {
         background-image: url('images/rectangle-546.svg');
-        width: 100%;
+
         background-size: cover;
         height: 100%;
     }
@@ -1822,7 +1830,7 @@ body {
     .principles-img {
         padding: 30px 30px 37.6px 30px;
         margin-top: 0;
-        width: 100%;
+
     }
 
     .principles-logo {
@@ -1873,7 +1881,6 @@ body {
 
     .program-imgs {
         background-image: url('images/Rectangle\ 528.svg');
-        width: 100%;
         margin: 0 40px 0 25px;
         height: 100%;
         background-size: cover;
@@ -2095,11 +2102,23 @@ body {
 
     .trener-swiper {
         margin-top: 40px;
-        padding: 0 10px;
+        padding: 0 10px 46px;
     }
 
     .trener-swiper .swiper-slide :nth-child(2) {
         margin-top: 23px;
+    }
+
+    .trener-swiper .swiper-pagination {
+        bottom: 0;
+    }
+
+    .trener-swiper .swiper-pagination-bullet {
+        background-color: #F5C643;
+        width: 17px;
+        height: 17px;
+        font-weight: 500;
+        font-size: 14px;
     }
 
     .treners-present {
